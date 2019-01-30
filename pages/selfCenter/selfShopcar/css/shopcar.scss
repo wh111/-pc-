@@ -1,0 +1,137 @@
+.shopcar-root {
+  width: 950px;
+  min-height: 730px;
+  border-radius: 5px;
+  background: #fff;
+  .shopList {
+    width: 890px;
+    height: 180px;
+    border: 1px solid #efefef;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 16px;
+    .title {
+      height: 39px;
+      background-color: #efefef;
+      border-bottom: solid 1px #e5e5e5;
+        //font-family: MicrosoftYaHei;
+      font-size: 12px;
+      color: #727272;
+      padding-left: 18px;
+      line-height: 39px;
+      span {
+        float: right;
+        margin-right: 30px;
+        color: #ef3f3f;;
+      }
+
+    }
+    .shop {
+      height: 140px;
+      background: #fff;
+      .img {
+        float: left;
+        width: 80px;
+        margin: 30px;
+        border: solid 1px #e5e5e5;
+        overflow: hidden;
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      ul {
+        float: left;
+        margin-top: 26px;
+        li {
+          color: #b5b5b5;
+          font-size: 12px;
+          line-height: 24px;
+          .num {
+            margin-left: 233px;
+            .shu {
+              padding: 0 5px;
+            }
+          }
+        }
+        .tag {
+          font-size: 14px;
+          color: #434343;
+        }
+
+      }
+      dl {
+        float: right;
+        margin-right: 55px;
+        text-align: center;
+        margin-top: 37px;
+        width: 120px;
+        dt {
+          color: #ef3f3f;
+          font-size: 14px;
+          font-weight: bold;
+
+        }
+        dd {
+          color: #fd7416;
+        }
+        .close {
+          color: #434343;
+          font-weight: normal;
+        }
+        button {
+          margin-top: 10px;
+          font-size: 14px;
+          color: #ffffff;
+          width: 120px;
+          height: 40px;
+          background-color: #fd7416;
+          border: none;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 5px;
+        }
+
+      }
+    }
+
+  }
+  h1 {
+    line-height: 70px;
+    font-size: 26px;
+    margin-left: 30px;
+    color: #313131;
+    span {
+      color: #ef3f3f;
+      font-size: 16px;
+      float: right;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+  }
+    .pay {
+        border-radius: 5px;
+        border: 1px solid #efefef;
+        width: 179px;
+        height: 47px;
+        overflow: hidden;
+        float: left;
+        margin-left: 30px;
+    }
+    .active {
+        border: 1px solid #1cc03b;
+    }
+    .sel {
+        line-height: 60px;
+        margin-left: 30px;
+    }
+    .payright {
+        margin-top: 30px;
+        width: 149px;
+        height: 50px;
+        border: none;
+        background-color: #1cc03b;
+        color: #fff;
+        margin-left: 30px;
+    }
+}

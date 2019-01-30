@@ -1,0 +1,143 @@
+.selfAccount-root {
+    .el-table__body-wrapper {
+        overflow: hidden !important;
+    }
+    button {
+        cursor: pointer;
+    }
+    .selfAccount-manage {
+        width: 950px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        position: relative;
+        padding-top: 40px;
+        .myTable {
+            padding: 10px;
+            height: 400px;
+            .el-table thead {
+                tr {
+                    background-color: #e6f9ec;
+                    color: #11a63f;
+                    text-align: center;
+                }
+            }
+        }
+        h1 {
+            height: 35px;
+            //font-family: MicrosoftYaHei;
+            font-size: 26px;
+            line-height: 26px;
+            padding-left: 30px;
+            color: #313131;
+            margin-bottom: 20px;
+        }
+    }
+
+    .selfAccount-manage-lastMoney {
+        text-align: center;
+        margin: 0 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #d8d8d8;
+        text-align: right;
+        .title-last {
+            font-size: 16px;
+            color: #313131;
+        }
+        .last-money {
+            font-size: 26px;
+            font-weight: bold;
+            color: #ef3f3f;
+        }
+        button {
+            width: 88px;
+            height: 34px;
+            border-radius: 20px;
+            background-color: #fd7416;
+            color: #fff;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .el-table__body-wrapper {
+            overflow: hidden;
+        }
+
+    }
+    .manage-VIP {
+        margin-top: 20px;
+        .manage-button {
+            margin: 0 auto;
+            text-align: center;
+            button {
+                width: 134px;
+                height: 52px;
+                border-radius: 26px;
+                background-color: #fd7416;
+                border: none;
+                //font-family: MicrosoftYaHei;
+                font-size: 18px;
+                color: #ffffff;
+            }
+        }
+    }
+    .historyOfrecharge {
+        p {
+            font-size: 16px;
+        }
+        button {
+            width: 88px;
+            height: 34px;
+            border-radius: 20px;
+            background-color: #fd7416;
+            float: right;
+            //font-family: MicrosoftYaHei;
+            font-size: 14px;
+            color: #ffffff;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+    }
+}
+.groupsSelect {
+    cursor: pointer;
+    width: 950px;
+    border-bottom: 2px solid #11a63f;
+    height: 46px;
+    padding-left: 30px;
+    margin-top: 20px;
+    div {
+        height: 44px;
+        text-align: center;
+        float: left;
+        border-radius: 3px 3px 0 0;
+        //font-family: MicrosoftYaHei;
+        font-size: 16px;
+        line-height: 44px;
+        width: 445px;
+        color: #727272;
+
+    }
+    .active {
+        background-color: #11a63f;
+        color: #fff;
+    }
+    .groupsRight {
+        position: relative;
+        span {
+            position: absolute;
+            display: block;
+            width: 16px;
+            height: 16px;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 8px;
+            background-color: #fc4341;
+            line-height: 16px;
+            left: 177px;
+            top: 13px;
+            text-align: center;
+        }
+    }
+
+}

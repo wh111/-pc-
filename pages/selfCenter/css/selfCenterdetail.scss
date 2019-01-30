@@ -1,0 +1,556 @@
+.selfCenterdetail {
+    background: #ffffff;
+    width: 950px;
+    text-align: left;
+    color: #434343;
+    float: left;
+    background: #eeeeee;
+    position: relative;
+    .selfMyhomework {
+        margin-top: 30px;
+    }
+    .clearfloat {
+        clear: both;
+    }
+    h1 {
+        font-size: 24px;
+        color: #313131;
+    }
+    button {
+        cursor: pointer;
+    }
+    .selfApple1 {
+        background-image: url("/sasstudent/img/app-1.png");
+    }
+    .selfApple2 {
+        background-image: url("/sasstudent/img/app-2.png");
+    }
+    .selfApple3 {
+        background-image: url("/sasstudent/img/app-3.png");
+    }
+    .selfApple4 {
+        background-image: url("/sasstudent/img/app-4.png");
+    }
+    .treeLeft-not-all {
+        float: left;
+        width: 593px;
+        height: 703px;
+        position: relative;
+        background-size: 100%;
+        background-image: url("../../../assets/images/tree.png");
+    }
+    .treeLeft-all {
+        float: left;
+        width: 593px;
+        height: 703px;
+        position: relative;
+        background-size: 100%;
+        background-image: url("../../../assets/images/tree-1.png");
+        .app-wrap {
+            position: absolute;
+            top: 39px;
+
+            .app-line {
+                height: 50px;
+                margin: 0 auto;
+                text-align: center;
+                position: relative;
+            }
+            .app-line-0 {
+                width: 40px;
+            }
+            .app-line-1 {
+                width: 198px;
+            }
+            .app-line-2 {
+                width: 242px;
+            }
+            .app-line-3 {
+                width: 300px;
+            }
+            .app-line-4 {
+                width: 374px;
+            }
+            .app-line-5 {
+                width: 472px;
+            }
+            .app-line-6 {
+                width: 566px;
+            }
+            .app-line-7 {
+                width: 586px;
+            }
+            .img-wrap {
+                display: inline-block;
+                position: absolute;
+                top: 6px;
+                //float: left;
+                //img {
+                //    /*margin:5%;*/
+                //}
+            }
+        }
+    }
+}
+
+ul, li {
+    list-style: none;
+}
+
+.friendActive {
+    border-radius: 5px;
+    background: #fff;
+    padding-left: 30px;
+    width: 745px;
+    height: 250px;
+    float: left;
+    text-align: left;
+
+    h1 {
+        font-size: 24px;
+        line-height: 80px;
+        color: #313131;
+
+    }
+    #friendActive-min {
+        position: relative;
+        height: 160px;
+        overflow: hidden;
+    }
+    ul {
+        position: absolute;
+        left: 0;
+        top: 0;
+        li {
+            font-size: 14px;
+            line-height: 32px;
+            color: #434343;
+            div {
+                width: 6px;
+                float: left;
+                height: 6px;
+                margin-top: 12px;
+                border-radius: 100%;
+                margin-right: 3px;
+            }
+            .pray {
+                background: #A0A0A0;
+            }
+            .green {
+                background: #11a640;
+            }
+            .yellow {
+                background: #FD7416;
+            }
+            .yellowFont {
+                color: #FD7416;
+            }
+            .name {
+                font-weight: bold;
+            }
+            .project {
+                color: #fd7416;
+            }
+            .timer {
+                font-size: 12px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.circleLeft {
+    position: relative;
+    margin-left: 5px;
+    background: url("../../../assets/images/circle.png") no-repeat;
+}
+
+.signOn {
+    text-align: center;
+    height: 250px;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+    background: #fff;
+    border-radius: 5px;
+    padding: 19px 21px;
+    .layer {
+        width: 59px;
+        height: 55px;
+        display: inline-block;
+        font-size: 60px;
+        line-height: 130px;
+        text-align: center;
+        color: #a0a0a0;
+        margin-left: 6px;
+    }
+    p {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    div {
+        height: 135px;
+        width: 131px;
+    }
+    button {
+        width: 142px;
+        height: 44px;
+        background: #ff9f00;
+        line-height: 44px;
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 22px;
+        margin-top: 20px;
+    }
+}
+
+.selfIcon {
+    width: 24px;
+    height: 128px;
+    float: left;
+}
+
+.selfMyTree-My {
+    width: 950px;
+    min-height: 860px;
+    margin-top: 30px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    h1 {
+        height: 71px;
+        line-height: 71px;
+
+    }
+    .searchProject {
+        width: 890px;
+        height: 53px;
+        background: #efefef;
+        line-height: 53px;
+        font-size: 14px;
+        padding-left: 20px;
+        span {
+            cursor: pointer;
+            padding: 0 8px;
+        }
+        .active {
+            color: #1cc03b;
+            font-weight: bold;
+        }
+
+    }
+    .tree {
+        width: 880px;
+        height: 739px;
+        background: #ffffff;
+        .treeLeft {
+            float: left;
+            width: 593px;
+            height: 703px;
+            //background-image: url("../../../assets/images/tree.png");
+            .treeDoor {
+                width: 600px;
+                height: 210px;
+                background-color: #eeeeee;
+                margin-top: 145px;
+                opacity: 0.9;
+                p {
+                    padding-top: 60px;
+                    font-size: 36px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: #a0a0a0;
+                }
+                ul {
+                    li {
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: center;
+                        span {
+                            color: red;
+                        }
+                    }
+                }
+
+            }
+        }
+        .treeRight {
+            border-radius: 5px;
+            border: solid 1px #e5e5e5;
+            padding-left: 10px;
+            float: right;
+            width: 260px;
+            height: 680px;
+            line-height: 40px;
+            margin-top: 31px;
+            padding-right: 10px;
+            font-size: 12px;
+            color: #727272;
+            b {
+                font-size: 14px;
+                color: #434343;
+            }
+            ul {
+                height: 635px;
+
+                overflow: auto;
+                padding: 0px;
+                li {
+                    color: #a0a0a0;
+                    width: 233px;
+                    span {
+                        float: right;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+.selfAccess {
+    width: 950px;
+    margin-top: 30px;
+    background: #ffffff;
+    height: 90px;
+    border-radius: 5px;
+    .progress {
+        float: left;
+        width: 474px;
+        padding: 0 30px;
+        border-right: 1px solid #ccc;
+        height: 90px;
+        span {
+            font-size: 12px;
+            color: #a0a0a0;
+        }
+        .rule {
+            float: right;
+            margin-right: 53px
+        }
+        .el-progress-bar__innerText {
+            display: none;
+        }
+    }
+    p {
+        padding-top: 20px;
+    }
+}
+
+.self h1 {
+    font-size: 22px;
+
+}
+
+.signOn .cens {
+    color: #fd7416;
+    padding: 0 5px;
+}
+
+.self .circle {
+    width: 130px;
+    height: 130px;
+}
+
+.selfMyhomework {
+    width: 950px;
+    //height: 370px;
+    padding: 0 0 30px 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    h1 {
+        height: 61px;
+        line-height: 71px;
+    }
+    .selfWork {
+        width: 890px;
+        border: 1px solid #e5e5e5;
+        margin-bottom: 30px;
+        .selfWorkname {
+            height: 82px;
+            //border-bottom: 1px solid #e5e5e5;
+        }
+        p {
+            font-size: 12px;
+            padding-left: 20px;
+            height: 39px;
+            background: #efefef;
+            line-height: 39px;
+            border-bottom: 1px solid #e5e5e5;
+            span {
+                color: #a0a0a0;
+                float: right;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.selfWorkname {
+    ul {
+        float: left;
+        padding-left: 20px;
+        font-size: 12px;
+        color: #a0a0a0;
+        margin-top: 17px;
+        line-height: 30px;
+        .title {
+            color: black;
+            font-size: 14px;
+            line-height: 18px;
+            .ulleft {
+                float: left;
+
+            }
+
+            span {
+                float: left;
+                display: block;
+                background: #fd4344;
+                height: 18px;
+                line-height: 18px;
+                font-size: 9px;
+                -webkit-transform: scale(0.75);
+                width: 47px;
+                text-align: center;
+                color: white;
+                border-radius: 4px;
+                margin-left: 5px;
+
+            }
+        }
+        .sec {
+            float: left;
+        }
+    }
+    .selfready {
+        width: 170px;
+        border-left: 1px solid #e5e5e5;
+        float: right;
+        text-align: center;
+        height: 81px;
+        button {
+            font-size: 13px;
+            color: #ffffff;
+            margin-top: 15px;
+
+        }
+
+    }
+
+}
+
+.selfready button {
+    width: 110px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #fd7416;
+    border: none;
+    color: white;
+}
+
+.selfWorking {
+    height: 81px;
+    .selfimg {
+        width: 60px;
+        height: 60px;
+        margin-left: 30px;
+        margin-top: 10px;
+        float: left;
+        border: 1px solid #e5e5e5;
+        img {
+            width: 41px;
+            height: 54px;
+            margin-top: 3px;
+            margin-left: 10px;
+        }
+    }
+    .secwork {
+        line-height: 20px
+    }
+    .selfprice {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fd4344;
+    }
+}
+
+.selfreadyWork {
+    padding-top: 19px;
+    span {
+        margin-top: 19px;
+        width: 78px;
+        height: 11px;
+        font-size: 12px;
+        line-height: 1.83;
+        text-align: left;
+        color: #434343;
+        margin-top: 19px;
+    }
+    .selfper {
+        margin-top: 10px;
+        width: 100px;
+        height: 8px;
+        border-radius: 4px;
+        background-color: #efefef;
+        background-color: var(--white);
+        margin-left: 35px;
+    }
+
+}
+
+.selfreadybutton button {
+    background-color: #11a63f;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.signOnRight {
+    .circleRight {
+        margin-left: 7px;
+        background: url("../../../assets/images/circle-1.png") no-repeat;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        color: #fd7416;
+        padding-top: 46px;
+        p {
+            line-height: 16px;
+        }
+
+    }
+}
+
+.selfApple {
+    position: relative;
+    top: 6px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url("../../../../sasstudent/img/app-1.png");
+    background-size: 100%;
+}
+
+.treeRight ul {
+    margin-top: -1px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.selfCenterdetail .ivu-modal-footer {
+    border: none;
+}
+
+.selfCenterdetail .ivu-modal-header {
+    border-bottom: none;
+}
+
+.alertSelftest .ivu-modal-footer {
+    border: none;
+    display: none;
+}
+
+.alertSelftest .ivu-modal-header {
+    border: none;
+}

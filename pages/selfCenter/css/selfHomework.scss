@@ -1,0 +1,188 @@
+
+.myHomework-root {
+    padding-top: 40px;
+    width: 950px;
+    padding-bottom: 1px;
+    min-height: 720px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #434343;
+    button {
+        //cursor: pointer
+    }
+    .myContentBox {
+        min-height: 490px;
+    }
+    .groupsSelect {
+        cursor: pointer;
+        width: 950px;
+        border-bottom: 2px solid #11a63f;
+        height: 46px;
+        background: white;
+        padding-left: 30px;
+        div {
+            background: #f5f5f5;
+            height: 44px;
+            text-align: center;
+            float: left;
+            border-radius: 3px 3px 0 0;
+            font-size: 16px;
+            line-height: 44px;
+            width: 444px;
+            color: #727272;
+
+        }
+        .active {
+            background-color: #11a63f;
+            color: #fff;
+        }
+        .groupsRight {
+            position: relative;
+            span {
+                position: absolute;
+                display: block;
+                width: 16px;
+                height: 16px;
+                color: #fff;
+                font-size: 12px;
+                border-radius: 8px;
+                background-color: #fc4341;
+                line-height: 16px;
+                left: 177px;
+                top: 13px;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .selfMyhomework {
+        width: 950px;
+        padding: 0 30px;
+        .workStatus {
+            font-size: 14px;
+            color: #727272;
+            height: 62px;
+            line-height: 50px;
+            padding-left: 4px;
+            span {
+                padding-right: 20px;
+            }
+            .active {
+                color: #fd7416;
+                font-weight: bold;
+            }
+        }
+        //padding-bottom: 0;
+        background: #ffffff;
+        h1 {
+            height: 61px;
+            line-height: 71px;
+        }
+        .el-tabs__header {
+            margin-bottom: 0;
+        }
+        .selfWork {
+            height: 121px;
+            border: 1px solid #e5e5e5;
+            margin-bottom: 30px;
+            p {
+                font-size: 12px;
+                padding-left: 20px;
+                height: 39px;
+                background: #efefef;
+                line-height: 39px;
+                border-bottom: 1px solid #e5e5e5;
+                span {
+                    color: #a0a0a0;
+                    float: right;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    .selfWorkname {
+        ul {
+            float: left;
+            padding-left: 20px;
+            font-size: 12px;
+            color: #a0a0a0;
+            margin-top: 17px;
+            line-height: 30px;
+            .title {
+                color: black;
+                font-size: 14px;
+                line-height: 18px;
+                .ulleft {
+                    float: left;
+                }
+                span {
+                    float: left;
+                    display: block;
+                    background: #fd4344;
+                    height: 18px;
+                    line-height: 18px;
+                    font-size: 9px;
+                    -webkit-transform: scale(0.75);
+                    width: 47px;
+                    text-align: center;
+                    color: white;
+                    border-radius: 4px;
+                    margin-left: 5px;
+                }
+            }
+            .sec {
+                float: left;
+                .alreadyComplate {
+                    color: #fd7416;
+                }
+            }
+        }
+
+    }
+    .selfWorkprocess {
+        float: right;
+        width: 120px;
+        border-left: 1px solid #e5e5e5;
+        float: right;
+        text-align: center;
+        height: 81px;
+        padding-top: 10px;
+    }
+    .selfready {
+        width: 170px;
+        border-left: 1px solid #e5e5e5;
+        float: right;
+        text-align: center;
+        height: 81px;
+        button {
+            //font-family: MicrosoftYaHei;
+            font-size: 13px;
+            color: #ffffff;
+            margin-top: 15px;
+            width: 110px;
+            height: 40px;
+            border-radius: 3px;
+            background-color: #fd7416;
+            border: none;
+            cursor: pointer;
+            &[disabled="disabled"] {
+                cursor: text;
+                background-color: #ccc;
+            }
+        }
+        .show-detail {
+            border-radius: 3px;
+            background-color: #ffffff;
+            border: solid 1px #cccccc;
+            text-align: center;
+            font-size: 13px;
+            color: #898989;
+        }
+
+    }
+    .el-pager li.active {
+        background-color: #1cc03b;
+        color: #fff;
+    }
+}

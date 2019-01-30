@@ -1,0 +1,13 @@
+.questionBox,.questionTodoBox{
+    .qcfItem {
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 5px;
+        &.error {
+            color: red;
+        }
+        &.success {
+            color: green;
+        }
+    }
+}

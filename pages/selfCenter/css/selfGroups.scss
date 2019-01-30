@@ -1,0 +1,351 @@
+.groupsRoot {
+    padding-top: 40px;
+    width: 950px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    //font-family: MicrosoftYaHei;
+    border-bottom: 46px;
+    color: #434343;
+    .h1 {
+        font-size: 26px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .middle {
+        width: 900px;
+        position: relative;
+        margin-left: 45px;
+    }
+    .middle-swiper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        .item-detail {
+            float: left;
+        }
+    }
+    .h1-title {
+        color: #bcbcbc;
+        font-size: 12px;
+        margin-left: 30px;
+        span {
+            color: #313131;
+            padding: 0 4px;
+        }
+    }
+    .nongroup {
+        height: 433px;
+        background: #fff;
+        margin: 0 auto;
+        text-align: center;
+        .isnull {
+            margin-top: 200px;
+            font-size: 20px;
+            color: #cccccc;
+        }
+    }
+    .carouselFigure {
+        width: 890px;
+        height: 150px;
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 5px;
+        background-color: #aeb8cc;
+
+    }
+    button {
+        cursor: pointer;
+    }
+    .groupsSelect {
+        cursor: pointer;
+        width: 950px;
+        border-bottom: 2px solid #11a63f;
+        height: 46px;
+        padding-left: 30px;
+        div {
+            width: 365px;
+            height: 44px;
+            text-align: center;
+            float: left;
+            border-radius: 3px 3px 0 0;
+            //font-family: MicrosoftYaHei;
+            font-size: 16px;
+            line-height: 44px;
+            color: #ffffff;
+            background: #efefef;
+
+        }
+        .joinGroup {
+            width: 78px;
+            height: 28px;
+            margin-top: 7px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            float: right;
+            margin-right: 30px;
+            line-height: 26px;
+            text-align: center;
+            color: #a0a0a0;
+            font-size: 12px;
+            background: #fff;
+        }
+
+    }
+    .groupsTitle {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 156px;
+        height: 25px;
+        //font-family: MicrosoftYaHei;
+        font-size: 26px;
+        line-height: 1.15;
+        text-align: left;
+        color: #313131;
+    }
+    .groupsTitlelist {
+        margin-left: 30px;
+        font-size: 12px;
+        color: #a0a0a0;
+        margin-top: 7px;
+        span {
+            color: #434343;
+        }
+    }
+
+}
+
+.groupsDetailtitle {
+
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    div {
+        height: 16px;
+        margin-top: 5px;
+        float: left;
+        width: 4px;
+        border-radius: 1px;
+        background-color: #11a63f;
+    }
+}
+
+.groupsDetailleft {
+    width: 600px;
+    min-height: 420px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    .p {
+        background-color: #f5f5f5;
+        line-height: 24px;
+        margin-left: 30px;
+        padding-left: 20px;
+        min-height: 100px;
+    }
+}
+
+.groupsDetailRight {
+    overflow: hidden;
+    float: right;
+    width: 260px;
+    height: 426px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #e5e5e5;
+    padding-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 46px;
+    .grouplist {
+        width: 220px;
+        .tatal {
+            border-bottom: 1px solid #e5e5e5;
+            line-height: 50px;
+            height: 40px;
+            span {
+                float: right;
+            }
+        }
+        .person {
+            text-align: left;
+            height: 50px;
+            display: block;
+            line-height: 50px;
+            font-size: 12px;
+            width: 220px;
+            .name {
+                display: inline-block;
+                white-space: nowrap;
+                font-weight: bold;
+                float: left;
+                padding-left: 6px;
+                height: 50px;
+                width: 85px;
+                overflow: hidden;
+            }
+            .warn {
+                color: #fc4341;
+                float: left;
+                padding-left: 3px;
+            }
+            .pic {
+                width: 30px;
+                height: 30px;
+                float: left;
+                margin-top: 10px;
+                overflow: hidden;
+                border-radius: 100%;
+                background-image: url("../../../assets/images/person.gif");
+            }
+            button {
+                float: right;
+                margin-top: 15px;
+                width: 60px;
+                height: 20px;
+                border-radius: 3px;
+                background-color: #ff9f00;
+                line-height: 20px;
+                color: #e5e5e5;
+                font-size: 11px;
+                border: none;
+                display: inline-block;
+
+            }
+            .alreadyAdd {
+                background: #d2d2d2;
+            }
+        }
+
+    }
+
+}
+
+.groupsDetailleft p span {
+    font-size: 12px;
+    color: #a0a0a0;
+    padding-left: 5px;
+}
+
+.groupsSelect .styLeft {
+    color: #fff !important;
+    background-color: #11a63f !important;
+
+}
+
+.groupsSelect .styRight {
+    color: #727272 !important;
+    background-color: #efefef !important;
+}
+
+.addGroups-detail .ivu-modal-footer {
+    border: none;
+}
+
+.addGroups-detail .ivu-modal-header {
+    border-bottom: none;
+}
+
+.addGroups-detail .ivu-modal-footer {
+    display: none;
+}
+
+.addGroups-detail .ivu-modal {
+    height: 150px;
+
+}
+
+.groupsRoot .swiper-pagination-bullet-custom {
+    width: 0px;
+    height: 0px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.groupsRoot .swiper-pagination-bullets {
+    display: none;
+}
+
+.groupsRoot .swiper-pagination-bullet-custom.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+    width: 100px;
+    height: 150px;
+}
+
+.groupsRoot .list {
+
+    float: left;
+    margin: 0 auto;
+    width: 160px;
+    text-align: center;
+    .img {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 40px;
+        border-radius: 100%;
+        overflow: hidden;
+        background: url("../../../assets/images/man.png") no-repeat;
+        background-size: 80px;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    ul {
+        li {
+            font-size: 12px;
+            line-height: 18px;
+            color: #fff;
+            padding-top: 3px;
+        }
+    }
+}
+
+.groupsRoot .left-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 45px;
+    height: 150px;;
+    background-color: #a3acc0;
+    color: #fff;
+    font-size: 24px;
+    font-size: 24px;
+    line-height: 150px;
+    z-index: 10;
+}
+
+.groupsRoot .right-img {
+    z-index: 10;
+    right: 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 45px;
+    height: 150px;;
+    background-color: #a3acc0;
+    color: #fff;
+    font-size: 24px;
+    font-size: 24px;
+    line-height: 150px;
+}
+
+.groupsRoot .swiper-button-prev {
+    left: -34px;
+    background-image: none;
+    z-index: 1000;
+
+}
+
+.groupsRoot .swiper-button-next {
+    right: -25px;
+    background-image: none;
+    z-index: 1000;
+}

@@ -1,0 +1,160 @@
+.personal-question {
+    width: 950px;
+    background: #ffffff;
+    .el-tabs__item {
+        font-size: 14px;
+        color: #727272;
+    }
+    .el-tabs__item:hover {
+        color: #11A63F;
+    }
+    .el-tabs__item.is-active {
+        color: #11A63F;
+    }
+    .type {
+        padding: 40px 30px 0 30px;
+        border-bottom: 2px solid #11a63f;
+        li {
+            width: 296px;
+            float: left;
+            cursor: pointer;
+            background: #f5f5f5;
+            text-align: center;
+            line-height: 44px;
+            color: #727272;
+        }
+        .active {
+            background: #11a63f;
+            color: #ffffff;
+            border-radius: 3px 3px 0 0;
+        }
+    }
+    .item {
+        margin-top: 30px;
+        .question-item-title {
+            line-height: 39px;
+            background: #f5f5f5;
+            border: 1px solid #e5e5e5;
+            .orange {
+                margin-left: 20px;
+                color: #fd7416;
+                font-size: 12px;
+            }
+            .time {
+                float: right;
+                margin-right: 20px;
+                font-size: 12px;
+                color: #727272;
+            }
+            .maxnum {
+
+                margin-left: 20px;
+            }
+        }
+        .question-item-content {
+            height: 89px;
+            color: #434343;
+            font-size: 12px;
+            border: 1px solid #e5e5e5;
+            margin-top: -1px;
+            .img-wrap {
+                margin: 10px 10px 0 20px;
+                width: 60px;
+                height: 60px;
+                border: solid 1px #cacaca;
+                display: inline-block;
+                img {
+                    width: 41px;
+                    height: 54px;
+                    margin: 3px 0 3px 10px;
+                }
+            }
+            .tip-wrap {
+                display: inline-block;
+                .name {
+                    font-size: 14px;
+
+                    line-height: 30px;
+                    font-weight: bold;
+                }
+                .price {
+                    line-height: 22px;
+                    font-size: 14px;
+                    span {
+                        color: red;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .btn-wrap {
+                border-left: 1px solid #e5e5e5;
+                float: right;
+                padding: 23px 28px;
+            }
+        }
+    }
+    .question-wrap {
+        width: 890px;
+        margin-left: 30px;
+
+    }
+    .question-detail {
+        position: relative;
+        height: 235px;
+        .img-wrap {
+            margin: 10px 10px 0 20px;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: solid 1px #cacaca;
+            display: inline-block;
+            img {
+                width: 126px;
+                height: 181px;
+                margin: 12px 42px 7px 32px;
+            }
+        }
+        .tip-wrap {
+            display: inline-block;
+            height: 200px;
+            position: absolute;
+            width: 600px;
+            left: 250px;
+            top: 20px;
+            .name {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 30px;
+                color: #313131;
+            }
+            .price {
+                line-height: 30px;
+                font-size: 12px;
+                span {
+                    color: red;
+                    font-size: 17px;
+                }
+            }
+            .p {
+                line-height: 30px;
+                font-size: 14px;
+            }
+        }
+        .test-paper {
+            .tip-wrap {
+                p {
+                    font-size: 12px;
+                    line-height: 1.83;
+                    text-align: left;
+                    color: #434343;
+                }
+            }
+            .btn-wrap {
+                padding: 26px 30px 26px 30px;
+            }
+        }
+    }
+    .pagination {
+        margin: 20px 0 0px 0;
+    }
+}

@@ -1,0 +1,194 @@
+.growthArchives-root {
+  width: 950px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  button {
+    cursor: pointer;
+  }
+    .growthArchives-myTable .el-table__body-wrapper {
+        overflow: hidden;
+    }
+  h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .focus {
+    background-color: #fd7416 !important;
+    color: #ffffff !important;
+    border: none !important;
+  }
+
+  #myTable {
+    padding: 0 0px;
+    .el-table thead {
+      tr {
+        background-color: #e6f9ec;
+        color: #11a63f;
+        text-align: center;
+      }
+    }
+  }
+
+  .groupsDetailtitle {
+
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    div {
+        margin-top: 5px;
+        height: 16px;
+      float: left;
+      width: 4px;
+      border-radius: 1px;
+      background-color: #11a63f;
+    }
+  }
+  .seeHistory {
+    float: right;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    padding: 0 12px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #898989;
+  }
+  .select-project {
+    height: 60px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    line-height: 60px;
+  }
+  .groupsDetailtitle {
+    text-align: left;
+    margin-left: 0;
+  }
+  .know-access {
+    height: 300px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  .growthArchives-root-timeborder {
+    width: 100px;
+    float: right;
+    button {
+      margin-bottom: 10px;
+    }
+  }
+  .myProjectprecent {
+    top: -50px
+  }
+
+  .selfWork {
+    height: 121px;
+    width: 890px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+    p {
+      font-size: 12px;
+      padding-left: 20px;
+      height: 39px;
+        background: #efefef;
+      line-height: 39px;
+      border-bottom: 1px solid #e5e5e5;
+      span {
+        color: #a0a0a0;
+        float: right;
+        margin-right: 20px;
+      }
+    }
+  }
+  .selfWorkname {
+    ul {
+      float: left;
+      padding-left: 20px;
+      font-size: 12px;
+      color: #a0a0a0;
+      margin-top: 17px;
+      line-height: 30px;
+      .title {
+        color: black;
+        font-size: 14px;
+        line-height: 18px;
+        .ulleft {
+          float: left;
+        }
+        span {
+          float: left;
+          display: block;
+          background: #fd4344;
+          height: 18px;
+          line-height: 18px;
+          font-size: 9px;
+          -webkit-transform: scale(0.75);
+          width: 47px;
+          text-align: center;
+          color: white;
+          border-radius: 4px;
+          margin-left: 5px;
+        }
+      }
+      .sec {
+        float: left;
+        .alreadyComplate {
+          color: #fd7416;
+        }
+      }
+    }
+
+  }
+  .selfready {
+    width: 170px;
+    border-left: 1px solid #e5e5e5;
+    float: right;
+    text-align: center;
+    height: 81px;
+    button {
+        //font-family: MicrosoftYaHei;
+      font-size: 13px;
+      color: #ffffff;
+      margin-top: 15px;
+      width: 110px;
+      height: 40px;
+      border-radius: 3px;
+      background-color: #fd7416;
+      border: none;
+    }
+    .show-detail {
+      border-radius: 3px;
+      background-color: #ffffff;
+      border: solid 1px #cccccc;
+      text-align: center;
+      font-size: 13px;
+      color: #898989;
+    }
+
+  }
+  .selfWorkprocess {
+    float: right;
+    width: 120px;
+    border-left: 1px solid #e5e5e5;
+    float: right;
+    text-align: center;
+    height: 81px;
+    padding-top: 10px;
+  }
+  .seeMore {
+    width: 890px;
+    height: 26px;
+    text-align: center;
+      //font-family: MicrosoftYaHei;
+    font-size: 13px;
+    line-height: 26px;
+    color: #898989;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+  }
+}

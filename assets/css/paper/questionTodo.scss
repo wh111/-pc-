@@ -1,0 +1,106 @@
+@import "./questionStyle";
+$activeColor: #fd7416;
+
+.questionTodoBox {
+    font-size: 16px;
+    .qcTitle {
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px 1px #e7e7e7;
+        background-color: #fff;
+        padding: 20px;
+        padding-left: 60px;
+        position: relative;
+    }
+    .el-radio__label {
+        font-size: 16px !important;
+    }
+    .qctIndex {
+        width: 54px;
+        height: 34px;
+        position: absolute;
+        top: 13px;
+        left: 0;
+        text-align: center;
+        line-height: 34px;
+        color: #fff;
+        background-color: #bfbfbf;
+        border-top-right-radius: 17px;
+        border-bottom-right-radius: 17px;
+    }
+    .el-radio-group {
+        display: block;
+    }
+    .qcmSel {
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px 1px #e7e7e7;
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        position: relative;
+        &:last-child {
+            margin-bottom: 20px;
+        }
+        .el-radio__input,.el-checkbox__input {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .el-radio,.el-checkbox{width: 100%;}
+        .el-radio__inner,.el-checkbox__inner {
+            width: 20px;
+            height: 20px;
+        }
+        .el-radio__label,.el-checkbox__label {
+            width: 100%;
+            padding-left: 0;
+            display: block;
+            &:hover{
+                color: $activeColor;
+            }
+        }
+        .el-checkbox__inner:hover{
+            color: $activeColor;
+        }
+        .el-checkbox__inner::after{
+            height: 12px;
+            left: 6px;
+            width: 5px;
+        }
+        .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+            background-color: $activeColor;
+            border-color: $activeColor;
+        }
+        .el-checkbox__input.is-checked+.el-checkbox__label{
+            color: $activeColor;
+        }
+        .el-checkbox__input.is-focus .el-checkbox__inner,.el-checkbox__inner:hover{border-color: $activeColor;}
+    }
+    .qcmPubSel{padding: 8px;}
+    .qcmSelItem {
+        position: absolute;
+        left: 30px;
+        top: 0;
+        line-height: 20px;
+    }
+    .qcmSelText {
+        width: 100%;
+        padding-left: 50px;
+        min-height: 20px;
+        line-height: 20px;
+        word-wrap: break-word;
+        white-space: initial;
+    }
+    .qcFooter{
+        margin-bottom: 20px;
+    }
+}
+
+.qChildren{
+    .qctIndex{
+        width: 32px;
+        height: 32px;
+        top: 14px;
+        left: 16px;
+        border-radius: 16px;
+    }
+}

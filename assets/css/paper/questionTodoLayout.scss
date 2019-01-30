@@ -1,0 +1,162 @@
+@import "fontIconStyle";
+
+$bgc: #f3f0ea; // 背景色
+$lineColor: #dcdcdc; // 普通线条颜色
+$greenColor: #11a63f; // 绿色
+
+$mainWidth: 1200px; // 整体宽度
+$leftBox: 240px; // 左侧宽度
+$rightBox: 920px; // 右侧盒子
+$timeBoxHeight: 52px; // 倒计时高度
+
+.questionTodoLayout {
+    img{
+        max-width: 840px;
+    }
+    width: 100%;
+    min-height: 100%;
+    background-color: $bgc;
+    user-select: none;
+    .header {
+        background-color: #fff;
+        border-bottom: 1px solid $lineColor;
+    }
+    .el-radio__inner::after {
+        width: 9px;
+        height: 9px;
+        background-color: #fd7416;
+    }
+    .el-radio__input.is-checked .el-radio__inner {
+        background-color: #fff;
+        border: 2px solid #fd7416;
+    }
+    .el-radio__input.is-disabled.is-checked .el-radio__inner::after {
+        background-color: #fd7416;
+    }
+    .topBox{overflow: hidden;}
+    .timeBox {
+        float: right;
+        padding: 0 20px;
+        color: #fff;
+        background-color: #fd7416;
+        line-height: 50px;
+        font-weight: bold;
+    }
+    .questionTodoMain {
+        width: $mainWidth;
+        margin: 0 auto;
+    }
+    .leftBox {
+        width: $leftBox;
+        background-color: #fff;
+        padding: 20px;
+        & ~ .rightBox {
+            float: right;
+            margin: initial;
+        }
+    }
+    .rightBox {
+        width: $rightBox;
+        margin: 0 auto;
+    }
+    .loadQuestionTips {
+        text-align: center;
+        line-height: 200px;
+    }
+
+    // 试题类型
+    .questionType {
+        margin-bottom: 10px;
+        &.open {
+            margin-bottom: 36px;
+            .questionTypeNumBox {
+                display: block;
+            }
+        }
+    }
+    .questionTypeText {
+        font-size: 14px;
+        font-weight: bold;
+        padding-right: 20px;
+        line-height: 20px;
+        position: relative;
+        cursor: pointer;
+        &:before {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        span {
+            color: $greenColor;
+        }
+    }
+    .questionTypeNumBox {
+        display: none;
+        overflow: hidden;
+        padding: 1px;
+        margin-top: 4px;
+    }
+    .questionTypeIndexItem {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        float: left;
+        border: 1px solid #96e1c0;
+        margin-left: -1px;
+        margin-top: -1px;
+        position: relative;
+        &.hasDid {
+            background-color: #eee;
+        }
+        &:before {
+            font-size: 12px;
+            font-weight: 100;
+            position: absolute;
+            right: 2px;
+            bottom: 2px;
+            color: $greenColor;
+        }
+        &.ljlxTestError:before {
+            color: red;
+        }
+    }
+    .questionTypeNum {
+        font-size: 16px;
+        text-align: center;
+        line-height: 28px;
+        cursor: pointer;
+        border-radius: 14px;
+        &.active {
+            background-color: #fd7416;
+            color: #fff;
+        }
+        &:not(.active):hover {
+            color: #fd7416;
+        }
+    }
+    .footerBox {
+        padding-bottom: 40px;
+        .el-button {
+            height: 50px;
+            width: 49%;
+            border-color: #fd7416;
+            color: #fd7416;
+            font-size: 18px;
+            & ~ .el-button {
+                margin-left: 0;
+                float: right;
+            }
+            &.active{
+                background: #ff8a10;
+                color: #fff;
+            }
+            &:hover{
+                background: #fd7416;
+                color: #fff;
+            }
+        }
+        &.onlyOne{
+            .el-button{width: 100%;}
+        }
+    }
+}
